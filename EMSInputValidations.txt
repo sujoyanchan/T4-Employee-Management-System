@@ -1,0 +1,42 @@
+Employee Management System
+
+Working
+=======
+User will be provided the option to select from 4 buttons on the home page
+1. Add
+2. View
+3. Update
+4. Delete
+
+-> On clicking the button...
+
+i. Add -> user will be redirected to the add page. This page allows the user to input the id, name & salary of employee. 
+To save the details user needs to click on the 'Save' button.
+
+ii. View -> user will be redirected to the view page. This page allows the user to view all employees details.
+
+iii. Update -> user will be redirected to the update page. This page allows the user to input the employee id & if the given id exists, user will be able to update either the employee name or salary or both by filling the respective fields. To save the updated details user needs to click on the 'Save' button.
+
+iv. Delete -> user will be redirected to the delete page. This page allows the user to view all the employee details and decide which employee to delete by clicking on the delete button present next to each employee record. A confirmation alert will appear before deleting the employee.
+
+
+
+=> The employee details are saved in the MongoDB database.
+=> A Navigation Bar is provided on top of every page from where user can go to the home page or any other desired page.
+=> If no employee record is found in the database then the message 'Employees not found' will be displayed on the view and delete page.
+
+Input Validations
+=================
+
+-> While adding or updating employee details...
+
+1. id cannot be empty, should be a positive integer and cannot be more than 5 digits.
+
+2. name cannot be empty, should be only letters and be between 2 to 15 letters.
+
+3. salary cannot be empty, should be a positive integer and be between 4 to 10 digits.
+
+
+
+
+
